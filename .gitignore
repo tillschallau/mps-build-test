@@ -1,0 +1,324 @@
+# Default ignored files
+/workspace.xml
+/system
+/config
+
+# idea integration plugin artifact
+/plugins/mps-idea-integration/IDEAPlugin/mps-idea-integration-plugin.jar
+
+# MacOS user UI setting related file
+.DS_Store
+
+# Intellij Idea user workspace setting files
+**/.idea/workspace.xml
+**/.mps/workspace.xml
+/build/solution/.idea/workspace.xml
+/MPSPlugin/.idea/workspace.xml
+
+# Local user commits
+**/.idea/shelf
+**/.mps/shelf
+
+# Build artifacts
+/MPSPlugin/apiclasses
+/build/tmp/
+/contrib/build/tmp/
+/build/artifacts/
+/contrib/build/artifacts/
+/build/resources/help/
+/build/resources/JDK/
+/build/resources/openJDK
+classes/
+classes_gen/
+source_gen/
+source_gen.caches/
+testclasses
+teamcity-info.xml
+*.hprof
+*.class
+
+# Plugins related excludes:
+# Downloadable plugin libraries
+/plugins/debugger-api/lib
+/plugins/debugger-java/lib
+/plugins/mps-vcs/lib/
+/plugins/mps-java/lib/
+/plugins/mps-java-workbench/lib/
+/plugins/execution-languages/lib
+/plugins/execution-configurations/lib
+/plugins/jetpad/lib
+/plugins/jetpad/lib/*.war
+/plugins/jetpad/lib/jetpadBuildNumber.txt
+/plugins/mps-testing/lib
+/plugins/mps-migration/migration-platform/lib
+# Platform bundled plugins
+# (in the same order as in the MPSProperties.groovy to simplify maintaining)
+/plugins/java
+/plugins/java-ide-customization
+/plugins/terminal
+/plugins/settings-repository
+/plugins/tasks
+/plugins/git4idea
+/plugins/svn4idea
+/plugins/github
+/plugins/vcs-changeReminder
+/plugins/platform-images
+
+# Main libraries folder: dependencies are downloaded before complilation with task 'install' from build/getDependencies.xml
+/lib/
+
+# Intellij Idea platform artifact, which is extracted to bin, build, lib & plugins folders
+/mps-platform.zip
+
+# Binary files, required for application startup (including Mac executable)
+/bin/linux
+/bin/mac
+/bin/win
+/build/resources/mps
+
+# Versions of library dependecies required for platform (like Kotlin, JDK etc)
+/build/dependencies
+
+#local mps files
+/mps-files
+
+#latex code
+
+# Created by https://www.gitignore.io/api/tex
+
+### TeX ###
+## Core latex/pdflatex auxiliary files:
+*.aux
+*.lof
+*.log
+*.lot
+*.fls
+*.out
+*.toc
+*.fmt
+*.fot
+*.cb
+*.cb2
+
+## Intermediate documents:
+*.dvi
+*.xdv
+*-converted-to.*
+# these rules might exclude image files for figures etc.
+*.ps
+*.eps
+*.pdf
+!*final.pdf
+
+## Generated if empty string is given at "Please type another file name for output:"
+.pdf
+
+## Bibliography auxiliary files (bibtex/biblatex/biber):
+*.bbl
+*.bcf
+*.blg
+*-blx.aux
+*-blx.bib
+*.run.xml
+
+## Build tool auxiliary files:
+*.fdb_latexmk
+*.synctex
+*.synctex(busy)
+*.synctex.gz
+*.synctex.gz(busy)
+*.pdfsync
+*Notes.bib
+
+## Auxiliary and intermediate files from other packages:
+# algorithms
+*.alg
+*.loa
+
+# achemso
+acs-*.bib
+
+# amsthm
+*.thm
+
+# beamer
+*.nav
+*.pre
+*.snm
+*.vrb
+
+# changes
+*.soc
+
+# cprotect
+*.cpt
+
+# elsarticle (documentclass of Elsevier journals)
+*.spl
+
+# endnotes
+*.ent
+
+# fixme
+*.lox
+
+# feynmf/feynmp
+*.mf
+*.mp
+*.t[1-9]
+*.t[1-9][0-9]
+*.tfm
+
+#(r)(e)ledmac/(r)(e)ledpar
+*.end
+*.?end
+*.[1-9]
+*.[1-9][0-9]
+*.[1-9][0-9][0-9]
+*.[1-9]R
+*.[1-9][0-9]R
+*.[1-9][0-9][0-9]R
+*.eledsec[1-9]
+*.eledsec[1-9]R
+*.eledsec[1-9][0-9]
+*.eledsec[1-9][0-9]R
+*.eledsec[1-9][0-9][0-9]
+*.eledsec[1-9][0-9][0-9]R
+
+# glossaries
+*.acn
+*.acr
+*.glg
+*.glo
+*.gls
+*.glsdefs
+*.glstex
+
+# gnuplottex
+*-gnuplottex-*
+
+# gregoriotex
+*.gaux
+*.gtex
+
+# hyperref
+*.brf
+
+# knitr
+*-concordance.tex
+# TODO Comment the next line if you want to keep your tikz graphics files
+*.tikz
+*-tikzDictionary
+
+# listings
+*.lol
+
+# makeidx
+*.idx
+*.ilg
+*.ind
+*.ist
+
+# minitoc
+*.maf
+*.mlf
+*.mlt
+*.mtc[0-9]*
+*.slf[0-9]*
+*.slt[0-9]*
+*.stc[0-9]*
+
+# minted
+_minted*
+*.pyg
+
+# morewrites
+*.mw
+
+# nomencl
+*.nlo
+
+# pax
+*.pax
+
+# pdfpcnotes
+*.pdfpc
+
+# sagetex
+*.sagetex.sage
+*.sagetex.py
+*.sagetex.scmd
+
+# scrwfile
+*.wrt
+
+# sympy
+*.sout
+*.sympy
+sympy-plots-for-*.tex/
+
+# pdfcomment
+*.upa
+*.upb
+
+# pythontex
+*.pytxcode
+pythontex-files-*/
+
+# thmtools
+*.loe
+
+# TikZ & PGF
+*.dpth
+*.md5
+*.auxlock
+
+# todonotes
+*.tdo
+
+# easy-todo
+*.lod
+
+# xindy
+*.xdy
+
+# xypic precompiled matrices
+*.xyc
+
+# endfloat
+*.ttt
+*.fff
+
+# Latexian
+TSWLatexianTemp*
+
+## Editors:
+# WinEdt
+*.bak
+*.sav
+
+# Texpad
+.texpadtmp
+
+# Kile
+*.backup
+
+# KBibTeX
+*~[0-9]*
+
+# auto folder when using emacs and auctex
+/auto/*
+
+# expex forward references with \gathertags
+*-tags.tex
+
+
+# End of https://www.gitignore.io/api/tex
+
+# XMP
+*.xmpdata
+*.xmpi
+
+# Include PDFs of TikzEdt
+!**/tikz/*.pdf
+**/tikz/*.preview.pdf
